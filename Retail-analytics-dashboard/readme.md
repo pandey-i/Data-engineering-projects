@@ -64,12 +64,15 @@ A sample dataset is included after processing for demonstration purposes and raw
 
 ### Customer Analytics
 ![Customers](screenshots/customers.png)
+![Customers](screenshots/customers drill down.png)
 
 ### Revenue Trends
 ![Trends](screenshots/trends.png)
 
 ### RFM Analytics
-![RFM](screenshots/rfm.png)
+![RFM](screenshots/rfm1.png)
+![RFM](screenshots/rfm2.png)
+
 
 ---
 
