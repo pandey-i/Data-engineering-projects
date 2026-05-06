@@ -1,0 +1,8 @@
+apache-airflow
+pandas
+sqlalchemy
+psycopg2-binary
+streamlit
+plotly
+python-dotenv
+numpy

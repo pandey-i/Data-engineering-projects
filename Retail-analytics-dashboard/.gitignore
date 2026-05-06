@@ -1,0 +1,8 @@
+airflow_venv/
+venv/
+__pycache__/
+*.pyc
+.airflow/
+logs/
+.env
+data/processed/final_data.csv
