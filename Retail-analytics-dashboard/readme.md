@@ -64,7 +64,7 @@ A sample dataset is included after processing for demonstration purposes and raw
 
 ### Customer Analytics
 ![Customers](screenshots/customers.png)
-![Customers](screenshots/customers drill down.png)
+![Customers](screenshots/customers_drill_down.png)
 
 ### Revenue Trends
 ![Trends](screenshots/trends.png)
