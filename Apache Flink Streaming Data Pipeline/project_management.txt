@@ -1,0 +1,33 @@
+
+Need to create dagster pipelines that read from s3 parquets to tables in redshift.
+Perhaps use a dagster sensor that looks for when the next directory partition is created, when it is, load the last partition. 
+Or can do easy way and just load the last hour every hour 
+
+Once loaded into redshift, create dbt models that build out facts and dims. 
+
+once those are good, lets set up metabase and create some viz. 
+
+Finally, we want to terraformize the whole thing so we can run a single terraform script to build all cloud resources and tear them down as well 
+
+Then, lets create a bunch fo markdown files describing the whole thing. Create a more involved architecture diagram as well.
+
+when i come back:
+
+i need to fire up kafka and emr again, submit the flink job and stream to s3. 
+make sure to make the intervals larger so it doesnt create so many parquets. 
+make sure the schema has the time columns. 
+once its in the bucket, try to run the copy command in redshift to make sure it works. 
+once we have all the tables staged, we can shut off the flink job.
+
+when come back: 
+setup metabase, get it connected to redshift. create viz. have to fix onebigtable view
+
+once viz is good, we are pretty much done data modeling.
+just need to work on deployment, deploy dagster to an ec2. deploy metabase to an ec2 prob
+terraformize everything.
+
+
+
+
+
+
